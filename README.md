@@ -40,8 +40,9 @@ I build five of them because a lot of things are shipped in five or ten, includi
 The microcontroller is a XIAO-ESP32-C3 that has BLE and a battery charger and it is small. Its USB-C port is the charging port of my controller.
 
 At the left side is a tipical thumb joystick and at the right side two buttons. They are connected to inputs on the ESP32 and GND.
-Around the PCB are 20 "PL9823" LEDs. They need 5 volts which the ESP32 doesn't deliver. So, I use a little boost converter from the battery cell to five volts and a 74125 level shifter (with a 330Ω resistor) for the data.
+Around the PCB are 20 "PL9823" LEDs. They need 5 volts which the ESP32 doesn't deliver. So, I use a little boost converter from the battery cell to five volts and a 74125 level shifter (with a 330Ω resistor) for the data. A MOSFET turnes the boost converter off when the ESP32 is in DeepSleep.
 Two capacitors deliver high current for the LEDs for a short time.
+The battery voltage is measured by splitting it in half using two resistors 1MΩ
 
 The device is 12cm x 5cm, rounded at the sides and around 26mm thick. The case is made like the one of the console, but the cover is at the opposite side. The PCB is held between these two parts.
 The main part holds the battery in the middle and the "keycaps" at the right side OF THE DEVICE.
@@ -71,6 +72,9 @@ CONSOLE:
 
 • 330Ω resistor
 
+• microSD-card 
+
+
 CONTROLLERS:
 
 • 5pcs PCB, 104mm*46mm
@@ -85,11 +89,11 @@ CONTROLLERS:
 
 • 5pcs voltage regulator
 
-• 5pcs 74125 signal shifter
+• 5pcs 74125 level shifter
 
 • 5pcs 330Ω resistor
 
-• 10pcs 1mΩ resistor
+• 10pcs 1MΩ resistor
 
 • 10pcs 100nF capacitor
 
@@ -97,4 +101,18 @@ CONTROLLERS:
 
 • 100pcs PL9823 LED
 
+• 5pcs MOSFET
 
+
+# SOFTWARE
+
+
+## CONSOLE
+
+The console uses the Raspberry Pi Desktop. After booting, a menu appears. It shows python files saved on the external USB stick and uses pygame for the graphics.
+The idea behind this project: All of the other software are some python games on a USB stick. I can code them by myself or download them from the internet and as many as I want.
+
+## CONTROLLERS
+
+The controllers are coded in C++ and use ESP32 bleGamepad library. They use DeepSleep to be shut down by pressing the joystick for 5 seconds or by inactivity. 
+The code includes a lot of animations for the LEDs. The battery percentage is calculated using the measured battery voltage and a table from the web. It is sent every 20 seconds to the connected device and displayed on the LEDs when starting and if it is under 20%.
