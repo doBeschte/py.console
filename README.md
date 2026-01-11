@@ -2,8 +2,10 @@
 A gaming console based on a Raspberry Pi 5 and python games with 5 bluetooth-controllers
 I designed the 3D-printed parts in Fusion360, the schematics and the PCB in KiCAD.
 
+# HARDWARE
 
-# CONSOLE
+
+## CONSOLE
 The console is based on a Raspberry Pi 5. The 3D-printed housing (12cm x 12cm) includes two parts. The main part holds all the components and electronics.
 The top view looks like this:
 <img width="941" height="920" alt="Bildschirmfoto 2026-01-09 um 21 03 50" src="https://github.com/user-attachments/assets/cb72cb26-5ad3-4fab-8eb3-12751fa76929" />
@@ -28,7 +30,7 @@ It is mounted with two screws on the front and round pieces that fit into holes 
 I will use the Raspberry Pi active cooler that takes air through the holes in the top cover.
 
 
-#CONTROLLERS
+## CONTROLLERS
 
 The controllers are more complicated as they are smaller and include more components.
 I build five of them because a lot of things are shipped in five or ten, including PCBs, Joysticks, buttons, batteries etc. .
@@ -51,9 +53,48 @@ The "keycaps" just fit into their holes and have a margin to prevent falling out
 The cover is screwed into the main case at the sides. It holds the PCB at the edges, under the joystick and under the keys for pressure, leaving a bit of space for the solder joints.
 
 
+## BOM
 
-Raspberry Pi 5
-USB
-push button
-USB-stick
-Resistors
+CONSOLE:
+
+• Raspberry Pi 5, 4GB RAM
+
+• Raspberry Pi 5 active cooler
+
+• USB-A port
+
+• push button, 16mm mounting hole
+
+• PLA, 1kg (also for the controllers)
+
+• active buzzer, 24mm Ø
+
+• 330Ω resistor
+
+CONTROLLERS:
+
+• 5pcs PCB, 104mm*46mm
+
+• 5pcs Seeed Studio XIAO-ESP32-C3
+
+• 5pcs thumb joystick
+
+• 10pcs silent push button, 8*8mm
+
+• 5pcs LiPo battery, 30mm* 40mm* 10mm
+
+• 5pcs voltage regulator
+
+• 5pcs 74125 signal shifter
+
+• 5pcs 330Ω resistor
+
+• 10pcs 1mΩ resistor
+
+• 10pcs 100nF capacitor
+
+• 5pcs polarized capacitor
+
+• 100pcs PL9823 LED
+
+
