@@ -6,6 +6,9 @@ I designed the 3D-printed parts in Fusion360, the schematics and the PCB in KiCA
 
 
 ## CONSOLE
+
+<img width="3680" height="1946" alt="Console rendering" src="https://github.com/user-attachments/assets/81589308-efee-4d1a-85b0-49d5695bfe2d" />
+
 The console is based on a Raspberry Pi 5. The 3D-printed housing (12cm x 12cm) includes two parts. The main part holds all the components and electronics.
 The top view looks like this:
 <img width="941" height="920" alt="Bildschirmfoto 2026-01-09 um 21 03 50" src="https://github.com/user-attachments/assets/cb72cb26-5ad3-4fab-8eb3-12751fa76929" />
@@ -29,11 +32,18 @@ It is mounted with two screws on the front and round pieces that fit into holes 
 
 I will use the Raspberry Pi active cooler that takes air through the holes in the top cover.
 
+https://github.com/user-attachments/assets/2c3ed64f-fc42-457b-9e3d-2fc4b27291a0
+
+*This video shows how the mounting will work*
 
 ## CONTROLLERS
 
 The controllers are more complicated as they are smaller and include more components.
 I build five of them because a lot of things are shipped in five or ten, including PCBs, Joysticks, buttons, batteries etc. .
+
+<img width="1294" height="791" alt="Bildschirmfoto 2026-01-14 um 21 28 14" src="https://github.com/user-attachments/assets/63d5447f-b005-4498-b59d-922dd42a5e05" />
+
+The rendering doesn't include the joystick because I don't print it by myself.
 
 <img width="1589" height="856" alt="Bildschirmfoto 2026-01-06 um 15 12 12" src="https://github.com/user-attachments/assets/bf905f9f-2cb0-4e01-8a10-0b906bda28fb" />
 
@@ -60,7 +70,7 @@ CONSOLE:
 
 • Raspberry Pi 5, 4GB RAM  -  103,82€
 
-• Power supply for Pi 5  -  1-87€
+• Power supply for Pi 5  -  1,87€
 
 • Raspberry Pi 5 active cooler  -  3,09€
 
@@ -75,6 +85,8 @@ CONSOLE:
 • 330Ω resistor  -  /
 
 • microSD-card  -  16,95€
+
+TOTAL PRICE CONSOLE: 144,83€
 
 
 CONTROLLERS:
@@ -105,6 +117,7 @@ CONTROLLERS:
 
 • 5pcs MOSFET (IRLZ44N)  -  0,70€
 
+TOTAL PRICE 5 CONTROLLERS: 72,65€
 
 # SOFTWARE
 
@@ -112,9 +125,9 @@ CONTROLLERS:
 ## CONSOLE
 
 The console uses the Raspberry Pi Desktop. After booting, a menu appears. It shows python files saved on the external USB stick and uses pygame for the graphics.
-The idea behind this project: All of the other software are some python games on a USB stick. I can code them by myself or download them from the internet and as many as I want.
+The idea behind this project: All of the other software are some python games on a USB stick. I can code them by myself or download them from the internet - as many as I want!
 
 ## CONTROLLERS
 
-The controllers are coded in C++ and use ESP32 bleGamepad library. They use DeepSleep to be shut down by pressing the joystick for 5 seconds or by inactivity. 
-The code includes a lot of animations for the LEDs. The battery percentage is calculated using the measured battery voltage and a table from the web. It is sent every 20 seconds to the connected device and displayed on the LEDs when starting and if it is under 20%.
+The controllers are coded in C++ and use ESP32 bleGamepad library. They use DeepSleep to be shut down by pressing the joystick for 5 seconds or by inactivity. Pressing the Joystick will wake the ESP32 up.
+The code includes a lot of animations for the LEDs, using fastLED library. The battery level is calculated using the measured battery voltage and a table from the web. It is sent every 20 seconds to the connected device and displayed on the LEDs when starting and if it is under 20%.
