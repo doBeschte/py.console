@@ -79,7 +79,7 @@ CONSOLE:
 
 CONTROLLERS:
 
-• 5pcs PCB, 104mm*46mm  -  ≈15€ (including spedition)
+• 5pcs PCB, 112mm*46mm  -  ≈15€ (including spedition)
 
 • 5pcs Seeed Studio XIAO-ESP32-C3  -  27,55€
 
