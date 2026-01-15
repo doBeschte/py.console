@@ -60,13 +60,15 @@ CONSOLE:
 
 • Raspberry Pi 5, 4GB RAM  -  103,82€
 
+• Power supply for Pi 5  -  1-87€
+
 • Raspberry Pi 5 active cooler  -  3,09€
 
 • USB-A port  -  3,04€
 
 • push button, 16mm mounting hole  -  0,87€
 
-• PLA (also for the controllers)  -  /
+• blue PLA (also for the controllers)  -  15,19€
 
 • active buzzer, 24mm Ø  -  /
 
@@ -79,29 +81,29 @@ CONTROLLERS:
 
 • 5pcs PCB, 104mm*46mm  -  ≈15€ (including spedition)
 
-• 5pcs Seeed Studio XIAO-ESP32-C3
+• 5pcs Seeed Studio XIAO-ESP32-C3  -  27,55€
 
-• 5pcs thumb joystick
+• 5pcs thumb joystick  -  0,87€
 
-• 10pcs silent push button, 8*8mm
+• 10pcs silent push button, 8*8mm  -  0,86€
 
-• 5pcs LiPo battery, 30mm* 40mm* 10mm
+• 10pcs LiPo battery, 30mm* 40mm* 5mm  -  16,88€
 
-• 5pcs voltage regulator
+• 5pcs voltage regulator  -  2,53€
 
-• 5pcs 74125 level shifter
+• 5pcs 74125 level shifter  -  1,02€
 
-• 5pcs 330Ω resistor
+• 5pcs 330Ω resistor  -  /
 
-• 10pcs 1MΩ resistor
+• 10pcs 1MΩ resistor  -  /
 
-• 10pcs 100nF capacitor
+• 10pcs 100nF capacitor  -  0,87€
 
-• 5pcs polarized capacitor
+• 5pcs polarized capacitor  -  0,87€
 
-• 100pcs PL9823 LED
+• 100pcs PL9823 LED  -  5,50€
 
-• 5pcs MOSFET
+• 5pcs MOSFET (IRLZ44N)  -  0,70€
 
 
 # SOFTWARE
