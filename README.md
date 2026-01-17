@@ -68,28 +68,28 @@ The cover is screwed into the main case at the sides. It holds the PCB at the ed
 
 CONSOLE:
 
-• Raspberry Pi 5, 4GB RAM  -  / (I will insert my own one)
+• Raspberry Pi 5, 4GB RAM  -  / 
 
-• Power supply for Pi 5  -  / (I will use my own one)
+• Power supply for Pi 5  -  / 
 
-• Raspberry Pi 5 active cooler  -  3,09€
+• Raspberry Pi 5 active cooler  -  /
 
-• USB-A port  -  8,16€
+• USB-A port  -  /
 
-• push button, 16mm mounting hole  -  6,09€
+• push button, 16mm mounting hole  -  /
 
-• active buzzer, 24mm Ø  -  / (I already have one)
+• active buzzer, 24mm Ø  -  /
 
-• 330Ω resistor  -  / (I have that, too)
+• 330Ω resistor  -  /
 
-• microSD-card  -  / (I will buy it by myself)
+• microSD-card  -  /
 
-TOTAL PRICE CONSOLE: 17,34€
+TOTAL PRICE CONSOLE: / (I will buy everything by myself)
 
 
 CONTROLLERS:
 
-• 5pcs custom PCB, 112mm*46mm  -  ~15€ (including spedition)
+• 5pcs custom PCB, 112mm*46mm  -  5,16€
 
 • 5pcs Seeed Studio XIAO-ESP32-C3  -  33,33€
 
@@ -105,7 +105,7 @@ CONTROLLERS:
 
 • 5pcs 330Ω resistor  -  / (I have them)
 
-• 10pcs 1MΩ resistor  -  / (also them)
+• 10pcs 1MΩ resistor  -  / (also them :D )
 
 • 10pcs 100nF capacitor  -  0,87€
 
@@ -115,7 +115,7 @@ CONTROLLERS:
 
 • 5pcs MOSFET (IRLZ44N)  -  4,60€
 
-TOTAL PRICE 5 CONTROLLERS: ~95,39€
+TOTAL PRICE 5 CONTROLLERS: 85,55€
 
 # SOFTWARE
 
