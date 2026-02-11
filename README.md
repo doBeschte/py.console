@@ -129,3 +129,13 @@ The idea behind this project: All of the other software are some python games on
 
 The controllers are coded in C++ and use ESP32 bleGamepad library. They use DeepSleep to be shut down by pressing the joystick for 5 seconds or by inactivity. Pressing the Joystick will wake the ESP32 up.
 The code includes a lot of animations for the LEDs, using fastLED library. The battery level is calculated using the measured battery voltage and a table from the web. It is sent every 20 seconds to the connected device and displayed on the LEDs when starting and if it is under 20%.
+
+# cart screenshots
+
+**Please note that i will only buy the selected items.**
+
+<img width="387" height="410" alt="Bildschirmfoto 2026-01-17 um 15 13 49" src="https://github.com/user-attachments/assets/d7175d05-57d8-407a-ad9a-3843f9e83f15" />
+<img width="789" height="617" alt="Bildschirmfoto 2026-01-17 um 15 13 39" src="https://github.com/user-attachments/assets/1ca74ff0-4348-40fe-8ce3-8824ac841177" />
+<img width="790" height="1056" alt="Bildschirmfoto 2026-01-17 um 15 13 28" src="https://github.com/user-attachments/assets/3059b040-0d52-4d7d-be5c-b0bc1088abeb" />
+<img width="790" height="1003" alt="Bildschirmfoto 2026-01-17 um 15 13 10" src="https://github.com/user-attachments/assets/4daf4a01-8664-4403-b25e-2fb96ff9da61" />
+
