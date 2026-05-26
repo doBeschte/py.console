@@ -45,6 +45,8 @@ I build five of them because a lot of things are shipped in five or ten, includi
 
 The rendering doesn't include the joystick because I don't print it by myself.
 
+<img width="1313" height="903" alt="Bildschirmfoto 2026-05-26 um 19 56 19" src="https://github.com/user-attachments/assets/abb97e06-6f99-4c46-ad3f-ce694d83e771" />
+
 <img width="1589" height="856" alt="Bildschirmfoto 2026-01-06 um 15 12 12" src="https://github.com/user-attachments/assets/bf905f9f-2cb0-4e01-8a10-0b906bda28fb" />
 
 The microcontroller is a XIAO-ESP32-C3 that has BLE and a battery charger and it is small. Its USB-C port is the charging port of my controller.
@@ -62,6 +64,14 @@ The "keycaps" just fit into their holes and have a margin to prevent falling out
 <img width="916" height="787" alt="Bildschirmfoto 2026-01-06 um 18 56 38" src="https://github.com/user-attachments/assets/2a1fcb81-f940-498f-9ac3-37c56f118753" />
 
 The cover is screwed into the main case at the sides. It holds the PCB at the edges, under the joystick and under the keys for pressure, leaving a bit of space for the solder joints.
+
+The PCB in my Renderings does not already contain all of the parts and some are just visible as pin headers:
+
+<img width="1005" height="517" alt="Bildschirmfoto 2026-05-26 um 20 54 24" src="https://github.com/user-attachments/assets/04a784cc-d7b4-4370-aa33-823e354737db" />
+
+The following picture shows the mounted PCB inside the case. It might look wrong at the sides (little space) but it isn't.
+
+<img width="3680" height="1946" alt="Controller Rendering" src="https://github.com/user-attachments/assets/987483f0-5f2d-44cf-b544-8ee7513442ec" />
 
 
 ## BOM
